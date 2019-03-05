@@ -1,0 +1,81 @@
+.Header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    user-select: none;
+    min-height: 64px;
+    padding: 0 8px 0 0;
+    flex-direction: row;
+    background-color: #fff;
+    align-items: center;
+    flex-wrap: nowrap;
+    -webkit-app-region: drag;
+  }
+  .SearchBar{
+    position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      flex-wrap: nowrap;
+      align-items: center;
+      overflow: hidden;
+      max-width:20vw ;
+      
+  }
+  .SearchInput{
+    display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      flex-wrap: nowrap;
+      font-family: Source Sans Pro,Segoe UI Emoji,Apple Color Emoji,Noto Color Emoji,Helvetica,sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #636a73;
+      border-color: transparent;
+  }
+  .Icon-text{
+    
+  
+  }
+  .Logo{
+    display: flex;
+      height: 100%;
+      color: #00a4e4;
+      flex-direction: row;
+      align-items: center;
+  
+  }
+  .Icon{
+   
+      display: flex;
+      flex-direction: row;
+      
+      flex-wrap: nowrap;
+      align-items: center;
+      overflow: hidden;
+      margin-right: 2vw;
+    
+  }
+  .Menu{
+    display: flex;  
+    width: 64px;
+    height: 64px;
+    flex-direction: row;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .Body{
+    font-size: 16px;
+    font-weight: 400;
+    color: #636a73;}
+    .Avatar {
+      vertical-align: middle;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
